@@ -39,12 +39,17 @@ namespace timer {
 
     let timers: timerInfo[] = []
 
-    // Support functions
-    function clearInterval(timeoutID: number): void {
+    /**
+     * Cancels repeated action which was set up using setInterval().
+     */
+    export function clearInterval(timeoutID: number): void {
         clearTimeout(timeoutID)
     }
 
-    function clearTimeout(timeoutID: number): void {
+    /**
+     * Clears the delay set by setTimeout().
+     */
+    export function clearTimeout(timeoutID: number): void {
         if (timers.length > timeoutID) {
             timers[timeoutID].nextRun = -1
         }
@@ -61,13 +66,19 @@ namespace timer {
         }
     }
 
-    function setInterval(func: () => void, delay: number): number {
+    /**
+     * Calls a function with a fixed time delay between each call to that function.
+     */
+    export function setInterval(func: () => void, delay: number): number {
         let toReturn: number = setTimeout(func, delay)
         timers[toReturn].loop = true
         return toReturn
     }
 
-    function setTimeout(func: () => void, delay: number): number {
+    /**
+     * Calls a function after specified delay.
+     */
+    export function setTimeout(func: () => void, delay: number): number {
         let toReturn: number = timers.length
         timers.push({
             fn: func,
