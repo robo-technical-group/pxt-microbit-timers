@@ -9,8 +9,8 @@
     },
     "files": [
         "README.md",
-        "main.blocks",
-        "main.ts"
+        "main.ts",
+        "timers.ts"
     ],
     "testFiles": [
         "test.ts"
