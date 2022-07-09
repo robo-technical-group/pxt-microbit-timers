@@ -10,19 +10,19 @@ This extension adds helper functions for debouncing, throttling, delaying and ru
 
 ### "After X do" / aka setTimeout
 
-![A](https://user-images.githubusercontent.com/38046796/177915779-7031f4b3-7d7e-4a63-9d5a-ac088f6ce371.gif)
+![A](https://user-images.githubusercontent.com/38046796/178118494-dc272800-b849-4b68-806f-a509723776df.gif)
 
 ### "Separately do" / aka run in background thread
 
-![P1](https://user-images.githubusercontent.com/38046796/177915797-74ab3f45-49d9-4be5-ba28-eec0e7f3b956.gif)
+![P1](https://user-images.githubusercontent.com/38046796/178118496-2fb34849-de01-41e2-b84e-52cec85688b1.gif)
 
 ### "after Y settled for X do" / aka debounce
 
-![B](https://user-images.githubusercontent.com/38046796/177915814-eaa7ff61-3260-4192-8184-8f8f8165a3fd.gif)
+![B](https://user-images.githubusercontent.com/38046796/178118502-db2253c6-0c88-4f04-a242-132c644cd11b.gif)
 
 ### "for Y at most once every X do" / aka throttle
 
-![P2](https://user-images.githubusercontent.com/38046796/177915825-9732793f-8bf1-487c-b7b7-f4aa07b1f190.gif)
+![P2](https://user-images.githubusercontent.com/38046796/178118506-166a96c0-9a8a-4a9b-9d1d-5b7d368368ec.gif)
 
 ## Use as Extension
 
